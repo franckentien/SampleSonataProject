@@ -1,0 +1,11 @@
+/.web-server-pid
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/
+/vendor/
+/web/bundles/
+.idea/
+app/DoctrineMigrations/
+/web/upload/
+app/bootstrap.php.cache
