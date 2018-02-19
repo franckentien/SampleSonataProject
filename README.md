@@ -2,7 +2,8 @@
 
 ## Presentation
 
-This project is the most basic project with Sonata Bundle.
+This project is the most basic project with Sonata Bundle in Symfony 3.4 
+
 I create a new project and import some of sonata Bundle 
 
 ## Bundle installed
@@ -35,3 +36,9 @@ sonata-project/user-bundle               Symfony SonataUserBundle
 - Create Database: `php bin/console doctrine:database:create`
 
 - Generate Database : `php bin/console doctrine:database:create`
+
+- Create an Admin : `php bin/console fos:user:create --super-admin`
+
+- Enjoy!
+
+To use the sonata Bundle you need to go on `web/app_dev.php/admin` and login with the admin acount
