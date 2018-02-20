@@ -35,7 +35,7 @@ sonata-project/user-bundle               Symfony SonataUserBundle
 
 - Create Database: `php bin/console doctrine:database:create`
 
-- Generate Database : `php bin/console doctrine:database:create`
+- Generate Database : `php .\bin\console doctrine:schema:update --force`
 
 - Create an Admin : `php bin/console fos:user:create --super-admin`
 
