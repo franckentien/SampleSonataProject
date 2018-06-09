@@ -34,3 +34,7 @@ sonata_user_admin_resetting:
 news:
     resource: '@SonataNewsBundle/Resources/config/routing/news.xml'
     prefix: /news
+
+sonata_cache_cache:
+    resource: '@SonataCacheBundle/Resources/config/routing/cache.xml'
+    prefix: /
