@@ -1,0 +1,4 @@
+sonata_notification:
+    #..
+    class:
+        message: App\Application\Sonata\NotificationBundle\Entity\Message

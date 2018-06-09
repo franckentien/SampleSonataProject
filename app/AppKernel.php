@@ -40,11 +40,14 @@ class AppKernel extends Kernel
             new Sonata\IntlBundle\SonataIntlBundle(),
             new Sonata\CacheBundle\SonataCacheBundle(),
             new Sonata\SeoBundle\SonataSeoBundle(),
+            new Sonata\NotificationBundle\SonataNotificationBundle(),
+
 
             new Application\Sonata\ClassificationBundle\ApplicationSonataClassificationBundle(),
             new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
             new Application\Sonata\NewsBundle\ApplicationSonataNewsBundle(),
+            new Application\Sonata\NotificationBundle\ApplicationSonataNotificationBundle(),
 
 
             new AppBundle\AppBundle()
