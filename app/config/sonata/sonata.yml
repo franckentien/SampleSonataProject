@@ -10,6 +10,7 @@ imports:
     - { resource: sonata_news.yml }
     - { resource: sonata_cache.yml }
     - { resource: sonata_seo.yml }
+    - { resource: sonata_page.yml }
 
 sonata_core:
     form:

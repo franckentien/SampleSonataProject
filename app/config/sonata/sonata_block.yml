@@ -1,5 +1,6 @@
 sonata_block:
     default_contexts: [cms]
+    context_manager: sonata.page.block.context_manager
     blocks:
         sonata.admin.block.admin_list:
             contexts:   [admin]
